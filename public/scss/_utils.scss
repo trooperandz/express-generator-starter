@@ -1,0 +1,13 @@
+// utils for app
+
+$color-gray-dark: #808c99;
+$color-gray-medium: #767676;
+$color-blue-medium: #3d7e9a;
+$color-red-light: #e8999a;
+
+$font-size-large: 2rem;
+$font-size-medium: 1rem;
+
+@mixin box-shadow {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}

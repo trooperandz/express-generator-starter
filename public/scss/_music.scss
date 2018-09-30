@@ -1,0 +1,35 @@
+// Styles for music page
+
+.music {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  @include box-shadow;
+
+  &__heading {
+    position: relative;
+    color: $color-gray-dark;
+    font-size: $font-size-large;
+
+    // Headphones image
+    &:before {
+      position: absolute;
+      content: '';
+      background-image: url('../img/headphones.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 40px;
+      width: 40px;
+      left: -60px;
+      top: -3px;
+    }
+  }
+
+  &__description {
+    color: $color-gray-medium;
+    font-size: $font-size-medium;
+  }
+}

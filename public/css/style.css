@@ -1,0 +1,36 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+.link {
+  padding: 8px;
+  color: #3d7e9a;
+  text-decoration: none; }
+  .link--home {
+    color: #e8999a; }
+
+.music {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); }
+  .music__heading {
+    position: relative;
+    color: #808c99;
+    font-size: 2rem; }
+    .music__heading:before {
+      position: absolute;
+      content: '';
+      background-image: url("../img/headphones.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 40px;
+      width: 40px;
+      left: -60px;
+      top: -3px; }
+  .music__description {
+    color: #767676;
+    font-size: 1rem; }
